@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div id="top-bar">
+            <header id="header">
+                <span>
+                    <div id="header-items">
+                        <img id="header-img" src="logo2.png" alt="Company logo">
+                        <a class="header-links" href="#">Home</a>
+                        <a class="header-links" href="#">Other products</a>
+                        <a class="header-links" href="#">Help</a>
+                    </div>                    
+                </span>
+                <nav id="nav-bar">
+                    <a href="#know" class="nav-link">Our service</a>
+                    <a href="#top-picks" class="nav-link">Top picks</a>
+                    <a href="#video" class="nav-link">Trailer</a>
+                    <a href="#email" class="nav-link">Notify</a>
+                </nav>
+            </header>        
+        </div>
+
+        <div class="parallax">
+            <span class="bg-content" id="hey-text" class="bg-content">Hey there!</span><br>
+            <span class="bg-content" id="mobile-text">Mobile</span>
+            <span class="bg-content" id="company-text">company</span> 
+            <span class="bg-content" id="presents-text"> presents you</span>
+            <!-- <span class="bg-content" id="great-text">The great</span> -->
+            <span class="bg-content" id="sale-text">Anniversary Sale!</span>
+            <span class="bg-content" id="offer-text">Get flat 50% off on all the products</span>
+            <span class="bg-content" id="terms-text">Terms and conditions apply</span>
+        </div>
+
+        <div id="container">
+            <div id="trailer">
+            <h2 id="video-header">Check the trailer out!</h2><br>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ieTHC78giGQ" 
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+            </div>
+            <div id="know-us">
+                <h2 id="know">Our service</h2>
+                <div class="know-holder">
+                    
+                    <img src="png/worldwide-delivery.png" class="know-image">
+                    <div class="know-text">
+                        <strong>
+                            <p>
+                                International shipping
+                            </p>
+                        </strong>
+                        <p>
+                            We ship everywhere. Price of shipping varies in different countries.  
+                        </p>
+                    </div>
+
+                </div>
+                <div class="know-holder">
+                    
+                    <img src="png/call-center.png" class="know-image">
+                    <div class="know-text">
+                        <strong>
+                            <p>
+                                Reliable
+                            </p>
+                        </strong>
+                        <p>
+                            24x7 Customer service provided. For more details, visit the contacts page.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="know-holder">
+                    
+                    <img src="png/delivery-in-hand.png" class="know-image">
+                    <div class="know-text">
+                        <strong>
+                            <p>
+                                Refund and exchange guarantee
+                            </p>
+                        </strong>
+                        <p>
+                            Product can be refundable or exchanged if you didn't like it or if its damaged on shipping.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="credit">
+                Icons made by <a class="credit-links" href="https://www.flaticon.com/authors/freepik" title="Freepik">
+                    Freepik</a> from <a class="credit-links" 
+                    href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            </div>
+
+            
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        
+            <h2 id="top-picks">Check our top picks out!</h2>
+            <div id="picks-container">
+                <div class="pick">
+                <img class="pick-img" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-11-pro-max-space-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566953858806">
+                    <div class="pick-text">
+                        <strong>
+                            <p>iPhone 11 Pro max</p>
+                            <p>&#8377 60,000</p>
+                        </strong>
+                    </div>
+                </div>
+                <div class="pick">
+                    <img class="pick-img" src="https://fi.google.com/about/static/images/phones/pixel-4/clearly-white.png">
+                    <div class="pick-text">
+                        <strong>
+                            <p>Pixel 4 xl</p>
+                            <p>&#8377 45,000</p>
+                        </strong>
+                    </div>
+                </div>
+            <div class="pick">
+                <img class="pick-img" src="https://image01.oneplus.net/ebp/202003/05/1-m00-11-9a-rb8bwl5gw3ialzmhaahhm3d1osy859_840_840.png">
+                <div class="pick-text">
+                    <strong>
+                    <p>Oneplus 7T Pro</p>
+                    <p>&#8377 35,000</p>
+                </strong>
+                </div>
+            </div>
+            </div>
+            <div id="form-holder">
+                <h2 id="form-header">Fill out this form to notify about offers</h2>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input type="text" id="person-name" name="person-name" required placeholder="Enter your name">
+                    <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                    <input type="submit" id="submit"></input>
+                </form>        
+            </div>
+        </div>
+</body>
+</html>
